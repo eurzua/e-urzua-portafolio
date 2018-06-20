@@ -2,15 +2,9 @@
 
 <main>
 		<div class="sections">
-			<header class="sections__header">
-				<h1 class="title">eurzua</h1>
-			</header>
 			<!-- codrops links -->
 			<!-- facts expander with toggles; content for each is in its section -->
-			<div class="facts" style="display: none;">
-				<div class="facts__toggle"></div>
-				<button class="button-contentclose"></button>
-			</div>
+			<div class="facts" style="display: none;"></div>
 			<!-- index -->
 			<div class="sections__index">
 				<span class="sections__index-current">
