@@ -19,7 +19,7 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="gallery.php">Portafolio</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="contact.php">Contacto</a></li>
       </ul>
       <ul class="nav-actions">
       <li>

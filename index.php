@@ -1,5 +1,17 @@
 <?php include("header.php");?>
 
+
+<div class="container"> 
+  <div class="row">
+    <div class="main__header-container main">
+      <p class="main__header-comments">“ Full stack no es saber de todo, si no saber como aplicar ese todo. “</p>
+      <span class="main__header-comments-name">Eduardo Urzúa</span>
+      <h1 class="main__header-title">eurzua</h1>
+      <h2 class="main__header-subtitle">Diseñador, productor y desarrollador</h2>
+    </div>
+  </div>
+</div>
+
 <div class="container">
    <h2 class="main__title">Services</h2>
    <h3 class="main__subtitle">Servicios</h3>
@@ -88,10 +100,10 @@
    <h2 class="main__title">Projects</h2>
    <h3 class="main__subtitle">Projectos</h3>
     <div class="row">
-      <div class="col-6 bg-warning d-flex align-self-center"  style="height: 526px; width: auto;">
+      <div class="col-md-6 col-xs-12 bg-warning d-flex align-self-center"  style="height: 526px; width: auto;">
         cualqueir cosa
       </div>
-      <div class="col-6">
+      <div class="col-md-6 col-xs-12">
         <div class="col-12  bg-success" style="height: 526px; width: auto;">
         
         blabla
