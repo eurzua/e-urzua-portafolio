@@ -16,9 +16,9 @@
     </div>
     <div class="navbar">
       <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portafolio</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="gallery.php">Portafolio</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
       <ul class="nav-actions">

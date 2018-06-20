@@ -1,3 +1,5 @@
+<?php include("header.php");?>
+
 <main>
 		<div class="sections">
 			<header class="sections__header">
@@ -189,3 +191,5 @@
 		</div>
 		<!--/ sections -->
 	</main>
+
+  <?php include("footer.php"); ?>
