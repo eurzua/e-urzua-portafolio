@@ -3,8 +3,12 @@
 <div class="container">
    <h2 class="main__title">Services</h2>
    <h3 class="main__subtitle">Servicios</h3>
-   <div class="row">
-     <div class="col-4">
+
+<?php include("assets/_data/_services-mobile.php");?>
+
+   <div class="row services__desktop">
+
+    <div class="col-md-4 col-sm-12">
       <div class="card web">
         <div class="card-body">
           <span class="card__detail"></span>
@@ -16,7 +20,7 @@
       </div>
     </div>
 
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
       <div class="card development">
         <div class="card-body">
           <span class="card__detail"></span>
@@ -28,7 +32,7 @@
       </div>
     </div>
 
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
       <div class="card graphic">
         <div class="card-body">
           <span class="card__detail"></span>
@@ -44,7 +48,7 @@
   <div class="row">
     <div id="_contact" class="collapse">
       <div class="row">
-          <div class=" col-8 ">
+          <div class=" col-12 ">
               <form method="post" action="_contact.php">
                   <div class="col-sm-12 form-group">
                     <label for="nombre">Nombre</label>
@@ -88,8 +92,16 @@
         cualqueir cosa
       </div>
       <div class="col-6">
-        <div class="col-12  bg-success" style="height: 526px; width: auto;">blabla</div>
-        <div class="col-12  bg-info" style="height: 526px; width: auto;">blabla</div>
+        <div class="col-12  bg-success" style="height: 526px; width: auto;">
+        
+        blabla
+        
+        </div>
+        <div class="col-12  bg-info" style="height: 526px; width: auto;">
+        
+        blabla
+        
+        </div>
       </div>
     </div>
   </div>

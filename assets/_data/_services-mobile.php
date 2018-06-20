@@ -1,4 +1,4 @@
-<div id="demo" class="carousel slide" data-ride="carousel">
+<div id="demo" class="carousel slide services-mobile" data-ride="carousel">
 
   <!-- Indicators -->
   <ul class="carousel-indicators">
@@ -10,8 +10,8 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <div class="col-4">
-        <div class="card web">
+      <div class="col-8">
+        <div class="card web services__mobile-content">
             <div class="card-body">
             <span class="card__detail"></span>
             <h4 class="card__title">Diseño Web</h4>
@@ -23,8 +23,8 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="col-4">
-        <div class="card development">
+      <div class="col-8">
+        <div class="card development services__mobile-content">
           <div class="card-body">
             <span class="card__detail"></span>
             <h4 class="card__title">Desarrollo</h4>
@@ -36,8 +36,8 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="col-4">
-        <div class="card graphic">
+      <div class="col-8">
+        <div class="card graphic services__mobile-content">
           <div class="card-body">
             <span class="card__detail"></span>
             <h4 class="card__title">Diseño Gráfico</h4>

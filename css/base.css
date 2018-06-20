@@ -3,10 +3,10 @@
 }
 
 body {
-	background: url('../img/polygon_background.png'), linear-gradient(-45deg, #293AA6 0%, #1F2D85 29%, #1D297C 65%, rgba(28, 39, 120, 0.737) 100%);
+	background: url('../img/polygon_background-v1-transparent.png'), linear-gradient(-10deg, #293AA6 0%, #1F2D85 29%, #1D297C 65%, rgba(28, 39, 120, 0.737) 100%);
 	background-size: cover;
 	background-position: center center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	font-family: "Montserrat", sans-serif !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -29,13 +29,12 @@ body {
 	--color-link: #000;
 	--color-link-hover: #333;
 	color: var(--color-menu-item);
-	min-height: 100vh;
-	/* -webkit-animation: Background-moving 22s ease infinite;
-	-moz-animation: Background-moving 19s ease infinite;
-	animation: Background-moving 19s ease infinite; */
+	/* -webkit-animation: Background-moving 41s ease infinite;
+	-moz-animation: Background-moving 41s ease infinite;
+	animation: Background-moving 41s ease infinite; */
 }
-
-/* @-webkit-keyframes Background-moving {
+/* 
+@-webkit-keyframes Background-moving {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -635,6 +634,40 @@ button:focus {
 	line-height: 1;
 }
 
+.carousel{
+	display: none;
+}
+
+.services__mobile-content.card{
+	margin-left: 25%;
+	width: 100%;
+}
+
+.services__mobile-content .card-img{
+	margin: 20px auto;
+}
+
+.services__mobile-content .card-body button{
+	padding: 16px 28px;
+  margin: 0 auto;
+  font-size: 0.8em;
+  border-bottom: 4px solid #fff;
+}
+
+@media (max-width: 992px){
+	.carousel{display: block;}
+	.services__desktop{ display: none;}
+}
+
+@media (max-width: 766px){
+	.carousel{display: block;}
+	.services__desktop{ display: none;}
+	.services__mobile-content .card-img{
+    margin: 20px -30px;
+    background-size: 80%;
+	}
+}
+
 .icon--arrowlong {
 	width: 2rem;
 	height: 1.25rem;
@@ -674,6 +707,10 @@ button:focus {
 	width: auto;
 	height: 532px;
 	padding: 48px 24px 48px 64px;
+}
+
+@media (max-width: 1196px){
+	.card{padding: 48px 30px;}
 }
 
 .card-body {
