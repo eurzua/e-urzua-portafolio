@@ -240,6 +240,11 @@ button:focus {
   padding: 0.3rem;
   border-radius: 50%;
 }
+@media (max-width: 846px) {
+  .custom-nav .navbar .nav-list li a, .custom-nav .navbar .nav-actions li a {
+    padding: 0.5rem 0.75rem;
+  }
+}
 @media (max-width: 768px) {
   .custom-nav {
     display: block;
@@ -323,19 +328,23 @@ button:focus {
 /* header */
 
 .main__header-container{
-  background-position: 88% !important;
-  background-size: 480px !important;
-  background-repeat: no-repeat !important;
   height: 466px;
   width: 100%;
   margin: 140px 0 40px 0;
 }
 
-.main__header-container.main{ background: url(../img/main-figure.svg);}
+.main__header-container.main{ 
+  background: url(../img/main-figure.svg) 88% no-repeat;
+  background-size: 480px;
+}
 
-.main__header-container.projects{ background: url(../img/graphic-figure.svg);}
+.main__header-container.projects{ background: url(../img/graphic-figure.svg) 94% 70px no-repeat;
+  background-size: 480px;
+}
 
-.main__header-container.contact{ background: url(../img/contact-figure.svg);}
+.main__header-container.contact{ background: url(../img/contact-figure.svg) 93% 20px no-repeat;
+  background-size: 400px;
+}
 
 .main__header-title{
   font-family: Montserrat-Bold;
@@ -373,21 +382,32 @@ button:focus {
 }
 
 
-@media (max-width: 892px) {
+@media (max-width: 992px) {
   .main__header-container{
-    background-position: 88% 22em;
-    background-size: 480px;
-    background-repeat: no-repeat;
-    height: 800px;
+    background-position: center 16em !important;
+    background-size: 340px !important;
+    height: 592px;
     width: 100%;
-    margin: 80px 0 40px 0;
+    margin: 80px 0 0 0;
+    text-align: center;
   }
-  .main__header-title{margin-top: 0;}
-  .main__header-comments{width: 100%;}
+  .main__header-title{
+    margin-top: 0;
+    font-size: 120px;
+  }
+  .main__header-comments{
+    width: 100%;
+    margin: auto;
+  }
   .main__header-subtitle {
     font-size: 22px;
     margin-top: -20px;
   }
+}
+
+@media (max-width: 580px) {
+  .main__header-title{ font-size: 76px;}
+
 }
 
 /* Codrops links */
