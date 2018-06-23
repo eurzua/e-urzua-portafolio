@@ -1,9 +1,16 @@
 
     <?php include("header.php");?>
 
-<div class="jumbotron text-center">
-  <h1>WHO IS EURZUA</h1>
-  <p>QUIEN ES EURZUA!</p> 
+
+<div class="container"> 
+  <div class="row">
+    <div class="main__header-container about">
+      <p class="main__header-comments">“ Full stack no es saber de todo, si no saber como aplicar ese todo. “</p>
+      <span class="main__header-comments-name">Eduardo Urzúa</span>
+      <h1 class="main__header-title">about me</h1>
+      <h2 class="main__header-subtitle">acerca de mi</h2>
+    </div>
+  </div>
 </div>
   
 <div class="container">

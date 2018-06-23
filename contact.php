@@ -13,7 +13,20 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class=" col-8 col-xs-offset-2">
+            <div class="col-4">
+              <div class="row">
+                <div class="col-12">
+                  <img src="img/contact-figure.svg" alt="" class="img-fluid mb-5">
+                </div>
+                <div class="col-12">
+                  <h3>Vestibulum hendrerit lacinia interdum. </h3>
+                  <p>Cras pellentesque commodo lobortis. Nulla pulvinar 
+                  mollis magna ut lobortis. Nunc viverra blandit nulla sit amet tempor. Sed bibendum neque sed
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-8">
                 <form method="post" action="_contact.php">
                     <div class="col-sm-12 form-group">
                       <label for="nombre">Nombre</label>
