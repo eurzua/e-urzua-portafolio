@@ -15,6 +15,7 @@ body {
   --color-text: #000;
   --color-bg-main: linear-gradient(  20deg, #293aa6 0%, #1f2d85 29%, #1d297c 65%, #1c2678 100% );
   --color-menu-item: #fff;
+  --color-text: #fff;
   --color-menu-item-hover: #e0f3ca;
   --color-bg-menu: #cbf3ee;
   --color-bg-facts: #374789;
@@ -338,6 +339,10 @@ button:focus {
   background-size: 480px;
 }
 
+.main__header-container.about{ background: url(../img/development-figure.svg) 98% 96px no-repeat;
+  background-size: 420px;
+}
+
 .main__header-container.projects{ background: url(../img/graphic-figure.svg) 94% 70px no-repeat;
   background-size: 480px;
 }
@@ -381,7 +386,6 @@ button:focus {
   margin: 0 96px;
 }
 
-
 @media (max-width: 992px) {
   .main__header-container{
     background-position: center 16em !important;
@@ -407,7 +411,6 @@ button:focus {
 
 @media (max-width: 580px) {
   .main__header-title{ font-size: 76px;}
-
 }
 
 /* Codrops links */
@@ -976,6 +979,14 @@ label {
   background-color: rgba(252, 227, 138, 0);
   color: #fff;
   border: 1px solid #fff;
+}
+
+/* footer */
+
+footer{
+  margin-top: 120px;
+  border-top: 1ps solid #fff;
+  color: var(--color-text)
 }
 
 @media screen and (min-width: 55em) and (min-height: 40em) {
