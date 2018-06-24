@@ -7,8 +7,12 @@ if($_POST[enviar] == "enviar"){
     $cuerpo="Mensaje: ".$_POST[cuerpo]."\n";
     $destinatario="eduardo <edu.urzua@gmail.com>";
     if(mail("$destinatario", "$asunto", "$cuerpo", "$cabecera")){
-        echo "mail enviado";
-        header("Location: contact.php");
+        echo "
+        <script>
+                alert('Excelebte!, pronto nos contactaremos');
+                window.location.href=\"index.php\"
+            </script>
+            ";
       } else{
           echo"
               <script>
