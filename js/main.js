@@ -83,10 +83,10 @@
             const rect = this.getProductDetailsRect();
 
             this.DOM.bgDown.style.transform = `translateX(${rect.productBgRect.left-rect.detailsBgRect.left}px) translateY(${rect.productBgRect.top-rect.detailsBgRect.top}px) scaleX(${rect.productBgRect.width/rect.detailsBgRect.width}) scaleY(${rect.productBgRect.height/rect.detailsBgRect.height})`;
-            this.DOM.bgDown.style.opacity = 1;
+            this.DOM.bgDown.style.opacity = 0.6;
             
             this.DOM.img.style.transform = `translateX(${rect.productImgRect.left-rect.detailsImgRect.left}px) translateY(${rect.productImgRect.top-rect.detailsImgRect.top}px) scaleX(${rect.productImgRect.width/rect.detailsImgRect.width}) scaleY(${rect.productImgRect.height/rect.detailsImgRect.height})`;
-            this.DOM.img.style.opacity = 1;
+            this.DOM.img.style.opacity = 0.6;
 
             anime({
                 targets: [this.DOM.bgDown,this.DOM.img],
@@ -195,7 +195,7 @@
                     this.DOM.img.style.opacity = 0;
                     this.DOM.bgDown.style.transform = 'none';
                     this.DOM.img.style.transform = 'none';
-                    this.DOM.productBg.style.opacity = 1;
+                    this.DOM.productBg.style.opacity = 0.4;
                     this.DOM.productImg.style.opacity = 1;
                     this.isAnimating = false;
                 }
@@ -231,8 +231,8 @@
             if ( win.w > 0.8*win.h ) {
                 this.DOM.img.style.transformOrigin = '50% 50%';
                 Object.assign(imgAnimeOpts, {
-                    scaleX: 4*win.w/parseInt(0.8*win.h),
-                    scaleY: 4*win.w/parseInt(0.8*win.h),
+                    scaleX: 0.8*win.w/parseInt(0.8*win.h),
+                    scaleY: 0.8*win.w/parseInt(0.8*win.h),
                     rotate: 0
                 });
             }

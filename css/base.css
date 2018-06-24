@@ -824,7 +824,6 @@ main {
 	height: 100%;
 	bottom: 0;
   left: 0;
-  overflow: scroll;
 	padding: 40vh 0 10vh 10vw;
 	z-index: 1000;
 	display: flex;
@@ -836,6 +835,7 @@ main {
 .details--open {
   pointer-events: auto;
   background-color: rgb(31, 30, 36);
+  overflow: scroll;
 }
 
 .details > * {
@@ -897,7 +897,7 @@ main {
 }
 
 .details__price {
-	font-size: 3em;
+	font-size: 0.1px;
 	font-weight: bold;
 	color: var(--color-price);
 }
@@ -1030,7 +1030,7 @@ main {
 		font-size: 1em;
 	}
 	.details__price {
-		font-size: 1.5em;
+		font-size: 0.1px;
 	}
 	.details__description {
 		max-width: 70%;
