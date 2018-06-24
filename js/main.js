@@ -22,7 +22,7 @@
             <h3 class="details__subtitle"></h3>
             <div class="details__price"></div>
             <p class="details__description"></p>
-            <button class="details__behance"><a href="https://www.behance.net/eurzua">Ver en behance</a></button>
+            <a href="https://www.behance.net/eurzua" class="details__behance btn">Ver en behance</a>
             <button class="details__close"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
             <button class="details__magnifier"><svg class="icon icon--magnifier"><use xlink:href="#icon-magnifier"></use></svg></button>
             `;
@@ -324,5 +324,4 @@
 
     DOM.details = new Details();
 
-    imagesLoaded(document.body, () => document.body.classList.remove('loading'));
 };

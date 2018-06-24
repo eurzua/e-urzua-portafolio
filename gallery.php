@@ -1,6 +1,6 @@
 <?php include("header.php");?>
 
-<div class="container"> 
+<div class="container mb-5"> 
   <div class="row">
     <div class="main__header-container projects">
       <p class="main__header-comments">“ Full stack no solo es saber de todo, si no es saber como aplicar ese todo. “</p>
@@ -24,13 +24,13 @@
 				<title>cross</title>
 				<path d="M 5.5,2.5 C 5.372,2.5 5.244,2.549 5.146,2.646 L 2.646,5.146 C 2.451,5.341 2.451,5.659 2.646,5.854 L 8.793,12 2.646,18.15 C 2.451,18.34 2.451,18.66 2.646,18.85 L 5.146,21.35 C 5.341,21.55 5.659,21.55 5.854,21.35 L 12,15.21 18.15,21.35 C 18.24,21.45 18.37,21.5 18.5,21.5 18.63,21.5 18.76,21.45 18.85,21.35 L 21.35,18.85 C 21.55,18.66 21.55,18.34 21.35,18.15 L 15.21,12 21.35,5.854 C 21.55,5.658 21.55,5.342 21.35,5.146 L 18.85,2.646 C 18.66,2.451 18.34,2.451 18.15,2.646 L 12,8.793 5.854,2.646 C 5.756,2.549 5.628,2.5 5.5,2.5 Z"/>
 
-		<main>
+		<main class="my-5">
 			<div class="content">
 				<div class="grid">
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/e3829017162187.562b6eb029852.png" alt="img 09"/>
+							<img class="product__img img-fluid" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/e3829017162187.562b6eb029852.png" alt="img 09"/>
 							<h2 class="product__title">MDFK - Smart People</h2>
 							<h3 class="product__subtitle">Branding</h3>
 							<p class="product__description">Primera colección de la marca MDFK Company. Demuestra los gustos y el contenido personal de cada integrante del equipo,
@@ -40,7 +40,7 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="https://mir-s3-cdn-cf.behance.net/project_modules/2800/4c677247964209.589108bc88ee6.png" alt="img 09"/>
+							<img class="product__img img-fluid" src="https://mir-s3-cdn-cf.behance.net/project_modules/2800/4c677247964209.589108bc88ee6.png" alt="img 09"/>
 							<h2 class="product__title">Turbus</h2>
 							<h3 class="product__subtitle">Web desing</h3>
 							<p class="product__description">Realización de una solución de compra de pasajes de la empresa TurBus y realizar el rediseño del sitio web, 
@@ -51,7 +51,7 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/94755354935065.596f99703b89f.jpg" alt="img 09"/>
+							<img class="product__img img-fluid"  src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/94755354935065.596f99703b89f.jpg" alt="img 09"/>
 							<h2 class="product__title">Frutería Bilbao</h2>
 							<h3 class="product__subtitle">Web desing</h3>
 							<p class="product__description">Identifica leyes de composición en función del comportamiento de los elementos visuales en una aplicación determinada, Identifica sistemas 
@@ -74,7 +74,7 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/b564b154979705.5972607edc644.jpg" alt="img 09"/>
+							<img class="product__img img-fluid"  src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/b564b154979705.5972607edc644.jpg" alt="img 09"/>
 							<h2 class="product__title">Wave music</h2>
 							<h3 class="product__subtitle">Web desing</h3>
 							<p class="product__description">diseño ui para un portar de música, de un genero en especial, en este caso fue la electrónica, en donde no tan solo es un portal de compra y venta de canciones,
@@ -85,7 +85,7 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="/img/projects/paper/dof_redesing-front.png" alt="img 09"/>
+							<img class="product__img img-fluid"  src="/img/projects/paper/dof_redesing-front.png" alt="img 09"/>
 							<h2 class="product__title">Diario Oficial</h2>
 							<h3 class="product__subtitle">Graphic design</h3>
               <p class="product__description">Prototipo del rediseño del diario oficial, realizado en conjunto con <a href="https://anibalcaballero.cl/">Anibal caballero</a>, con quien se realizaron
@@ -95,7 +95,7 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="/img/projects/paper/armin-afiche.jpg" alt="img 09"/>
+							<img class="product__img img-fluid"  src="/img/projects/paper/armin-afiche.jpg" alt="img 09"/>
 							<h2 class="product__title">Armin van buuren</h2>
 							<h3 class="product__subtitle">Graphic design</h3>
 							<p class="product__description">Afiche realizado para un proyecto personal, en el cual consistía en realizar toda la papelería de un concierto, que estos iban desde el afiche, hasta el diseño de la entrada.</p>
@@ -114,7 +114,7 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="/img/projects/paper/encuentro-diseño-2011.png" alt="img 09"/>
+							<img class="product__img img-fluid"  src="/img/projects/paper/encuentro-diseño-2011.png" alt="img 09"/>
 							<h2 class="product__title">Encuentro de diseño</h2>
 							<h3 class="product__subtitle">Graphic design</h3>
 							<p class="product__description">Celiac distillery man braid venmo, selfies you probably haven't heard of them tote bag forage fanny pack activated charcoal kale chips lo-fi before they sold out.</p>
@@ -123,7 +123,7 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1926f948129537.5894fc8422706.gif" alt="img 09"/>
+							<img class="product__img img-fluid"  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1926f948129537.5894fc8422706.gif" alt="img 09"/>
 							<h2 class="product__title">Latam</h2>
 							<h3 class="product__subtitle">Web design</h3>
 							<p class="product__description">Mumblecore bespoke blog raw denim, authentic VHS sustainable +1 freegan neutra small batch paleo. Schlitz chicharrones pork belly palo santo.</p>

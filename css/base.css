@@ -31,7 +31,7 @@ body {
   --color-nav: #ddd;
   --color-nav-hover: #000;
   --color-link: #fff;
-  --color-link-hover: #333;
+  --color-link-hover: #cbf3ee;
   color: var(--color-menu-item);
   min-height: 100vh;
 }
@@ -750,7 +750,7 @@ main {
 }
 
 .grid {
-	margin: 10em auto 7em;
+	margin: 20em auto 7em;
 	position: relative;
 	padding: 0 1em;
 	width: 100%;
@@ -797,7 +797,8 @@ main {
 	margin: 0.5em 0 0;
 	font-size: 1.75em;
 	color: var(--color-product-title);
-	font-weight: 700;
+  font-weight: 700;
+  letter-spacing: 6px;
 }
 
 .product__subtitle {
@@ -877,7 +878,8 @@ main {
 	margin: -1.5em 0 0.1em;
 	font-size: 4.5em;
 	color: var(--color-details-title);
-	font-weight: 700;
+  font-weight: 700;
+  letter-spacing: 6px;
 }
 
 .details__subtitle {
@@ -903,12 +905,8 @@ main {
 }
 
 .details__behance {
-	border: 0;
-	margin: auto 0 0 0;
-	background: var(--color-bg-addtocart);
-	color: var(--color-addtocart);
-	padding: 0.75em 2em;
-	font-weight: bold;
+    margin: auto 0 0 0;
+    max-width: 25%;
 }
 
 .details__behance:hover {
