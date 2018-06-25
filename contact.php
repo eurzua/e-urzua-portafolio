@@ -13,11 +13,11 @@
         </div>
         <div class="container">
           <div class="row d-flex align-items-center">
-            <div class="col-6">
+            <div class="col-sm-6 col-xs-12">
                   <h3>E-MAIL </h3>
                   <p class="contact">edu.urzua@gmail.com</p>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-xs-12">
                 <form method="post" action="_contact.php">
                     <div class="col-sm-12 form-group">
                       <label for="nombre">Nombre</label>
