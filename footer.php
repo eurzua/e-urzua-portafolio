@@ -1,9 +1,9 @@
 			<footer class="mb-5 container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-6 col-xs-12">
             <h5>eurzua</h5>
           </div>
-          <div class="col-6 text-right">
+          <div class="col-sm-6 col-xs-12 text-right">
             <p><small>  2018 eduardo urzúa, all right reserved.</small></p>
             <a href="#">subir</a>
           </div>
@@ -19,14 +19,14 @@
 
               $(document).ready(function(){
                 $('.mob-menu').click(function(){
-                  $('.hamburger1').toggleClass('active');
                   $('.navbar').animate({
                     height: "toggle",
                   }, 500);
+                  $('.hamburger1').toggleClass('active');
                 });
                 
                 $(window).resize(function(){
-                  if($(window).width()>768){
+                  if($(window).width()<768){
                     $('.navbar').css({display: 'flex'});
                   };
                 });
