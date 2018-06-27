@@ -7,7 +7,7 @@
               <p class="main__header-comments">“ Full stack no es saber de todo, si no saber como aplicar ese todo. “</p>
               <span class="main__header-comments-name">Eduardo Urzúa</span>
               <h1 class="main__header-title">Contacts</h1>
-              <h2 class="main__header-subtitle"><small>hablemos, cuentame acerca de ti y tus ideas para<br> que así realicemos un buenisimo proyecto</small>  </h2>
+              <h2 class="main__header-subtitle"><small>hablemos, cuentame acerca de ti y tus ideas para que así realicemos un buenisimo proyecto</small>  </h2>
             </div>
           </div>
         </div>
