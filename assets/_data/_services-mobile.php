@@ -17,7 +17,7 @@
             <h4 class="card__title">Diseño Web</h4>
             <h5 class="card__title-primary">Web Designer</h5>
             <div class="card-img">Diseño web / Web Designer.</div>
-            <button data-toggle="collapse" data-target="#_contact" class="card-link">Contact us</button>
+            <a href="contact.php" alt="to contact" class="card-link">Contact us</a>
             </div>
         </div>
       </div>
@@ -30,7 +30,7 @@
             <h4 class="card__title">Desarrollo</h4>
             <h5 class="card__title-primary">Development</h5>
             <div class="card-img">Desarrollo / Development.</div>
-            <button data-toggle="collapse" data-target="#_contact" class="card-link">Contact us</button>
+            <a href="contact.php" alt="to contact" class="card-link">Contact us</a>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
             <h4 class="card__title">Diseño Gráfico</h4>
             <h5 class="card__title-primary">Graphic design</h5>
             <div class="card-img">Diseño gráfico / Graphic design.</div>
-            <button data-toggle="collapse" data-target="#_contact" class="card-link">Contact us</button>
+            <a href="contact.php" alt="to contact" class="card-link">Contact us</a>
           </div>
         </div>
       </div>

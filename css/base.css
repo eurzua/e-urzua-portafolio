@@ -553,18 +553,37 @@ button:focus {
   background-image: url("../img/graphic-figure.svg");
 }
 
-.card .card-link {
+.card-link {
   display: block;
-  opacity: 0.5;
   color: #fff;
   letter-spacing: 0.9px;
   padding: 16px 48px;
   text-align: center;
-  font-size: 1em;
+  font-size: 12.5px;
   font-family: Montserrat-Bold;
-  background-color: #f8f9faa3;
+  background-color: #f8f9fa59;
   border-bottom: 4px solid #fff;
   box-shadow: 0 0 27px 0 rgba(0,176,235,0.29);
+}
+
+.card-link.orange {
+  background-repeat: no-repeat;
+  background-position: 74% 18px;
+  background-size: 8px;
+  background-image: url("../assets/icon/icon_row-right-white.svg");
+}
+.card:hover .card-link.orange {
+  background-repeat: no-repeat;
+  background-position: 74% 18px;
+  background-size: 8px;
+  background-image: url("../assets/icon/icon_row-right.svg");
+}
+
+.card-link.white {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../assets/icon/icon_row-right-white.svg");
 }
 
 .card__detail {
