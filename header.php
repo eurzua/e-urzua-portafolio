@@ -59,6 +59,6 @@
 				<title>grid</title>
 				<path d="M8.982 8.982h5.988v5.988H8.982zM0 0h5.988v5.988H0zM8.982 17.965h5.988v5.988H8.982zM0 8.982h5.988v5.988H0zM0 17.965h5.988v5.988H0zM17.965 0h5.988v5.988h-5.988zM8.982 0h5.988v5.988H8.982zM17.965 8.982h5.988v5.988h-5.988zM17.965 17.965h5.988v5.988h-5.988z"/>
 			</symbol>
-	</svg>
+	  </svg>
 	
-	<?php include("navbar.php");?>
+<?php include("navbar.php");?>

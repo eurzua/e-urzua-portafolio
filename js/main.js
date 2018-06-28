@@ -83,10 +83,10 @@
             const rect = this.getProductDetailsRect();
 
             this.DOM.bgDown.style.transform = `translateX(${rect.productBgRect.left-rect.detailsBgRect.left}px) translateY(${rect.productBgRect.top-rect.detailsBgRect.top}px) scaleX(${rect.productBgRect.width/rect.detailsBgRect.width}) scaleY(${rect.productBgRect.height/rect.detailsBgRect.height})`;
-            this.DOM.bgDown.style.opacity = 0.6;
+            this.DOM.bgDown.style.opacity = 1;
             
             this.DOM.img.style.transform = `translateX(${rect.productImgRect.left-rect.detailsImgRect.left}px) translateY(${rect.productImgRect.top-rect.detailsImgRect.top}px) scaleX(${rect.productImgRect.width/rect.detailsImgRect.width}) scaleY(${rect.productImgRect.height/rect.detailsImgRect.height})`;
-            this.DOM.img.style.opacity = 0.6;
+            this.DOM.img.style.opacity = 0.2;
 
             anime({
                 targets: [this.DOM.bgDown,this.DOM.img],
