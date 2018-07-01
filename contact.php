@@ -1,4 +1,24 @@
-    <?php include("header.php");?>
+
+<?php
+  $to = 'edu.urzua@gmail.com' . "\r\n";
+  $subject = 'Subject';
+  $name = $_POST['nombre'];
+  $email = $_POST['email']; 
+  $message = "<br> <br> \r\n" .
+  	         "Haz recibido un mensaje de alguien tratando de contactarte!  \r\n" .
+             "**************************************************  <br> <br>  \r\n" .	
+    
+  	        "Nombre: " . $name . "\r\n" .
+  	        "E-mail: " . $email . "\r\n" .
+  	        "Mensaje: " . $_POST["message"] . "\r\n"; 
+  $headers = "From: " . $name . "<" . $email . "> \r\n" .
+  	         "Reply-To: " . $email . "\r\n" .
+             "MIME-Version: 1.0" . "\r\n" .
+             "Content-type:text/html;charset=UTF-8" . "\r\n";
+	mail($to, $subject, $message, $headers); 
+ ?>
+
+   <?php include("header.php");?>
 
     <section>
         <div class="container"> 
@@ -18,27 +38,27 @@
                   <p class="contact">edu.urzua@gmail.com</p>
             </div>
             <div class="col-sm-6 col-xs-12">
-                <form method="post" action="_contact.php">
-                    <div class="col-sm-12 form-group">
-                      <label for="nombre">Nombre</label>
-                        <input class="form-control" name="nombre" placeholder="Nombre" type="text" required>
-                    </div>
-                    <div class="col-sm-12 form-group">
-                      <label for="email">Email:</label>
-                        <input class="form-control"  name="email" placeholder="Email" type="email" required>
-                    </div>
-                    <div class="col-sm-12 form-group">
-                      <label for="asunto">Asunto:</label>
-                        <input class="form-control"  name="asunto" placeholder="Asunto" type="text" required>
-                    </div>
-                    <div class="col-sm-12 form-group">
-                      <label for="telefono">Mensaje:</label>
-                        <textarea class="form-control" rows="4" placeholder="Describe tu consulta aquí" name="cuerpo"></textarea>
-                    </div>
-                  <div class="form-group text-center">
-                        <input type="submit" class="btn"  name="enviar">
-                    <div>
-                </form>
+              <form role="form" id="contact-form" method="post">
+                <div class="col-sm-12 form-group">
+                  <label for="nombre">Nombre</label>
+                    <input class="form-control" name="name" placeholder="Nombre" type="text" required>
+                </div>
+                <div class="col-sm-12 form-group">
+                  <label for="email">Email:</label>
+                    <input class="form-control"  name="email" placeholder="Email" type="email" required>
+                </div>
+                <div class="col-sm-12 form-group">
+                  <label for="asunto">Asunto:</label>
+                    <input class="form-control"  name="asunto" placeholder="Asunto" type="text" required>
+                </div>
+                <div class="col-sm-12 form-group">
+                  <label for="telefono">Mensaje:</label>
+                    <textarea class="form-control" rows="4" placeholder="Describe tu consulta aquí" name="message"></textarea>
+                </div>
+                <div class="form-group text-center">
+                  <button type="submit" class="btn" name="enviar">Enviar</button>
+                <div>
+              </form>
             </div>
           </div>
         </div>

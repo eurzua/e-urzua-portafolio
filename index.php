@@ -58,31 +58,34 @@
 
 
 <div class="container-fluid">
-<div class="container">
+  <div class="container">
    <h2 class="main__title">Projects</h2>
    <h3 class="main__subtitle">Projectos</h3>
     <div class="row">
-      <div class="col-md-6 col-sm-12 bg-warning d-flex align-self-center d-flex align-items-end"  style="height: 526px; width: 100%; margin: 0 -15px">
-          <div>
-            <h1>WaveMusic</h1>
-            <p>Identity ands Branding</p>
-            <a href="contact.php" alt="to contact" class="btn">Contact us</a>
-          </div>
+      <div class="col-md-6 col-sm-12 main__project-content project-a first d-flex align-self-center d-flex align-items-end">
+        <div class="main__project-detail">
+          <h3>WaveMusic</h3>
+          <p>Identity ands Branding</p>
+          <a href="contact.php" alt="to contact" class="card-link orange">Contact us</a>
+        </div>
+        <div class="shape"></div>
       </div>
       <div class="col-md-6 col-sm-12">
-        <div class="col-12  bg-success d-flex align-items-end" style="height: 526px; width: auto;">
-          <div>
-            <h1>WaveMusic</h1>
+        <div class="col-12 main__project-content project-b d-flex align-items-end">
+          <div class="main__project-detail">
+            <h3>WaveMusic</h3>
             <p>Identity and Branding</p>
-            <a href="contact.php" alt="to contact" class="btn">Contact us</a>
-            </div>
+            <a href="contact.php" alt="to contact" class="card-link orange">Contact us</a>
+          </div>
+          <div class="shape"></div>
         </div>
-        <div class="col-12  bg-info d-flex align-items-end" style="height: 526px; width: auto;">
-          <div>
-              <h1>WaveMusic</h1>
-              <p>Identity and Branding</p>
-              <a href="contact.php" alt="to contact" class="btn">Contact us</a>
-            </div>
+        <div class="col-12 main__project-content project-c d-flex align-items-end">
+          <div class="main__project-detail">
+            <h3>WaveMusic</h3>
+            <p>Identity and Branding</p>
+            <a href="contact.php" alt="to contact" class="card-link orange ">Contact us</a>
+          </div>
+          <div class="shape"></div>
         </div>
       </div>
     </div>
