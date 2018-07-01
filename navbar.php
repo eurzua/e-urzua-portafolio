@@ -22,16 +22,10 @@
         <li><a href="contact.php">Contacto</a></li>
       </ul>
       <ul class="nav-actions">
-      <li>
-        <a href="#">BH</a>
-      </li>
-      <li>
-        <a href="#">GH</a>
-      </li>
-      <li>
-        <a href="#">LI</a>
-      </li>
-    </ul>
+        <li><a href="https://www.behance.net/eurzua" class="behance">BH</a></li>
+        <li><a href="https://www.behance.net/eurzua" class="github">GH</a></li>
+        <li><a href="https://www.behance.net/eurzua" class="linkedin">LI</a></li>
+      </ul>
     </div>
   </nav>
 </div>
