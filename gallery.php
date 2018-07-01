@@ -62,13 +62,11 @@
 					<div class="grid__item">
 						<div class="product">
 							<div class="product__bg"></div>
-							<img class="product__img img-fluid" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/eee9bd48174895.590250e7edccd.png" alt="img 09"/>
-							<h2 class="product__title">Babysitter</h2>
+							<img class="product__img img-fluid" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/35833548559921.589c9a2af0b15.png" alt="img 09"/>
+							<h2 class="product__title">Club metro</h2>
 							<h3 class="product__subtitle">Web desing</h3>
-							<p class="product__description">Consistía en desarrollar el proceso completo de planificación, y desarrollo de los mockup y maqueta, como tambén 
-                comprobación de la navegación de elementos de interacción asociados. Considerando la re estructuración del sitio, tanto como a nivel gráfico como a nivel de estructura.
-                 Se debía realizar maquetación de la versión de desktop y mobile para la nueva propuesta de sitio, Realizando
-                  una Investigación cuantitativa y cualitativa sobre la competencia que considere las fortalezas y debilidades</p>
+							<p class="product__description">Se debía realizar un rediseño en mobile para el Club Metro, donde organizará los diferentes elementos de la interfaz y hará una experiencia 
+                de usuario desde que comienza el sitio hasta, finalizar su navegación por parte del usuario.</p>
 						</div>
 					</div>
 					<div class="grid__item">
@@ -131,6 +129,5 @@
 					</div>
 				</div>
 			</div>
-		</main>
-		<script src="js/main.js"></script>
+    </main>
 <?php include("footer.php"); ?>
