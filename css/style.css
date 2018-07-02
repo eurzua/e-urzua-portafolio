@@ -5,7 +5,8 @@
 }
 
 body {
-  background: url("../img/polygon_background-v1-transparent.png")  repeat center center, linear-gradient( -45deg, #293aa6 0%, #1f2d85 29%,#1d297c 65%, rgba(28, 39, 120, 0.737) 100% );
+  background: url(../img/polygon_background-v1-transparent.png)  repeat center center, 
+    linear-gradient( -45deg, #293aa6 0%, #1f2d85 29%,#011458bd 65%, rgba(28, 39, 120, 0.72) 100% );
   background-size: cover;
   font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
@@ -380,7 +381,7 @@ button:focus {
 .main__header-comments{
   opacity: 0.28;
   font-family: Montserrat-Bold;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--color-menu-item);
   letter-spacing: 0;
   width: 30%;
