@@ -9,7 +9,7 @@ if($_POST[enviar] == "enviar"){
     if(mail("$destinatario", "$asunto", "$cuerpo", "$cabecera")){
         echo "
         <script>
-                alert('Excelebte!, pronto nos contactaremos');
+                alert('Excelente!, pronto nos contactaremos');
                 window.location.href=\"index.php\"
             </script>
             ";
@@ -20,5 +20,5 @@ if($_POST[enviar] == "enviar"){
                   window.location.href=\"contact.php\"
               </script>";
           }
-    
+
 }?>
