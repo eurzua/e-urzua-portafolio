@@ -4,8 +4,8 @@
   $subject = 'Subject';
   $name = $_POST['nombre'];
   $email = $_POST['email']; 
-  $message = "<br> <br> \r\n" .
-  	         "Haz recibido un mensaje de alguien tratando de contactarte!  \r\n" .
+  $message = "\r\n" .
+  	         "oye, Alguien esta tratando de contactarte!  \r\n" .
              "**************************************************  <br> <br>  \r\n" .	
     
   	        "Nombre: " . $name . "\r\n" .

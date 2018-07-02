@@ -23,8 +23,8 @@
       </ul>
       <ul class="nav-actions">
         <li><a href="https://www.behance.net/eurzua" class="behance">BH</a></li>
-        <li><a href="https://www.behance.net/eurzua" class="github">GH</a></li>
-        <li><a href="https://www.behance.net/eurzua" class="linkedin">LI</a></li>
+        <li><a href="https://github.com/eurzua" class="github">GH</a></li>
+        <li><a href="www.linkedin.com/in/e-urzua" class="linkedin">LI</a></li>
       </ul>
     </div>
   </nav>

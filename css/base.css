@@ -511,6 +511,8 @@ button:focus {
   .main__subtitle {padding: 0 0 30px 15px;}
 }
 
+/* cards home*/
+
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -636,10 +638,18 @@ button:focus {
   .card__title-primary { font-size: 21px;}
 }
 
+/* projects home*/
+
+.container__projects-home{
+  margin-top: -180px;
+  position: relative;
+}
+.container__projects-home .col-sm-12{padding: 0;}
+
 .main__project-content{
   height: 526px; 
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: 60px !important;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -665,10 +675,31 @@ button:focus {
   height: 526px;
   background-image: linear-gradient(-179deg, rgba(55,71,137,0.62) 0%, rgba(28,38,120,0.87) 36%);
 } 
+.more{
+  font-family: Montserrat-Light;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 1.1px;
+  position: absolute;
+  border: 0;
+  left: 45px;
+  bottom: 120px;
+  opacity: 0.8;
+  padding-right: 120px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("/assets/icon/icon_row-right-white-large.svg");
+}
+.more:hover{
+  opacity: 1;
+  text-decoration: none;
+}
+
 .main__project-detail{
   margin-left: 13%;
   z-index: 1;
 }
+.main__project-detail a{width: 245px;}
 .main__project-detail h3{
   font-family: Montserrat-Bold;
   font-size: 36px;
@@ -681,7 +712,17 @@ button:focus {
   color: #FFFFFF;
   letter-spacing: 0.82px;
 }
+@media (max-width: 992px) {
+  .more{display: none;}
+}
+@media (max-width: 768px) {
+  .container__projects-home{margin-top: 0;}
+  .main__project-content.first{margin: 0;}
+  .main__project-detail{margin-left: 5%;}
+  .main__project-detail a{width: 225px;}
+}
 
+/* forms */
 
 label {
   font-size: 0;
